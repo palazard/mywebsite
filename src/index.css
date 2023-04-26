@@ -1,13 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #f0ffff;
+  --bs-primary: #3d4e60;
+  --bs-secondary: #4f84b5;
+  background-color: #1A1B1D;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn{
+  padding: 0.6rem 1.2rem;
+}
+
+a, a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.custom-main-container h1 {
+  font-size: 3.5rem;
+}
+.custom-main-container h2 {
+  font-size: 3rem;
+}
+.custom-main-container h3 {
+  font-size: 2.5rem;
+}
+.custom-main-container h4 {
+  font-size: 2rem;
+}
+.custom-main-container h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.custom-main-container h6 {
+  font-size: 1rem;
+}
+.custom-main-container p {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+@media (max-width: 1200px){
+  .custom-main-container h1 {
+    font-size: 3rem;
+  }
+  .custom-main-container h2 {
+    font-size: 2.6rem;
+  }
+  .custom-main-container h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 992px){
+  .custom-main-container h1 {
+    font-size: 2.6rem;
+  }
+  .custom-main-container h2 {
+    font-size: 2.2rem;
+  }
+  .custom-main-container h3 {
+    font-size: 2rem;
+  }
+  .custom-main-container h4 {
+    font-size: 1.8rem;
+  }
 }

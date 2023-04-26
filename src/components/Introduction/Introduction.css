@@ -1,0 +1,26 @@
+
+.custom-container{
+    min-height: 85vh;
+}
+
+.custom-column{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.custom-border{
+    border-bottom: 3px solid var(--bs-primary);
+}
+
+.custom-image{
+    max-width: 100%;
+    max-height: 450px;
+}
+
+.custom-button{
+    margin-top: 1rem;
+}
+
+.text{
+    max-width: 500px;
+}

@@ -1,0 +1,29 @@
+@media (min-width: 1200px){
+  .custom-main-container{
+      left: 250px;
+      position: absolute;
+      width: calc(100% - 250px);
+  }
+}
+
+.custom-main-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.buffer{
+  height: 5rem;
+}
+
+.btn-primary{
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
+.btn-primary:hover{
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
