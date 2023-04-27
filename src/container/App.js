@@ -11,7 +11,7 @@ function App() {
   return (
     <div >
       <Sidebar/>
-      <Container className="container-xxl custom-main-container flex align-items-center">
+      <Container fluid="xxl" className="custom-main-container flex align-items-center">
         <Introduction/>
         <About/>
       </Container>

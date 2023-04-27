@@ -1,21 +1,3 @@
-@media (min-width: 1200px){
-  .custom-main-container{
-      left: var(--sibebar-width);
-      position: absolute;
-      width: calc(100% - 250px);
-  }
-
-  .custom-main-container h1 {
-    font-size: 3rem;
-  }
-  .custom-main-container h2 {
-    font-size: 2.6rem;
-  }
-  .custom-main-container h3 {
-    font-size: 2.2rem;
-  }
-}
-
 .custom-main-container{
     padding-right: 15px;
     padding-left: 15px;
@@ -23,8 +5,49 @@
     margin-left: auto;
 }
 
-.custom-buffer{
+.custom-main-container h1 {
+  font-size: 3.5rem;
+}
+.custom-main-container h2 {
+  font-size: 3rem;
+}
+.custom-main-container h3 {
+  font-size: 2.3rem;
+}
+.custom-main-container h4 {
+  font-size: 1.8rem;
+}
+.custom-main-container h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.custom-main-container h6 {
+  font-size: 1rem;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.custom-column{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.custom-border{
+  border-bottom: 3px solid var(--segundary-color);
+  width: 50%;
+}
+
+.custom-buffer-large{
   height: 5rem;
+}
+.custom-buffer-medium{
+  height: 3.5rem;
+}
+.custom-buffer-small{
+  height: 1.5rem;
 }
 
 .btn-primary{
@@ -36,28 +59,22 @@
   border-color: var(--segundary-color);
 }
 
-.custom-main-container h1 {
-  font-size: 3.5rem;
-}
-.custom-main-container h2 {
-  font-size: 3rem;
-}
-.custom-main-container h3 {
-  font-size: 2.5rem;
-}
-.custom-main-container h4 {
-  font-size: 2rem;
-}
-.custom-main-container h5 {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-.custom-main-container h6 {
-  font-size: 1rem;
-}
-.custom-main-container p {
-  font-size: 1rem;
-  font-weight: 100;
+@media (min-width: 1200px){
+  .custom-main-container{
+      left: var(--sibebar-width);
+      position: absolute;
+      width: calc(100% - 250px);
+  }
+
+  /* .custom-main-container h1 {
+    font-size: 3rem;
+  }
+  .custom-main-container h2 {
+    font-size: 2.5rem;
+  }
+  .custom-main-container h3 {
+    font-size: 2rem;
+  } */
 }
 
 @media (max-width: 992px){
@@ -68,10 +85,9 @@
     font-size: 2.2rem;
   }
   .custom-main-container h3 {
-    font-size: 2rem;
-  }
-  .custom-main-container h4 {
     font-size: 1.8rem;
   }
+  .custom-main-container h4 {
+    font-size: 1.4rem;
+  }
 }
-

@@ -1,27 +1,45 @@
 import React from 'react';
 // import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-import PaulineAlazard from '../Introduction/pauline-alazard.png';
+import AboutPauline from './about-pauline.png';
 import WrapContainer from '../wrappers/WrapContainer';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-import '../Introduction/Introduction.css';
+import './About.css';
 
 function About() {
   return (
     <WrapContainer>
-        <div className="col-lg-6 d-flex justify-content-center custom-column">
-            <div className="">
-                <h5>Hello, I am</h5>
-                <h1 className="pb-2">Pauline Alazard</h1>
-                <p className="custom-text">Industrial engineer / problems solver who love coding, learning and creating new things and surfing around the world.</p>
-                <Button className="btn btn-primary custom-button"><a href="#">Donwload CV</a></Button>
-            </div>
+        <Row>
+        <div className="">
+            <h2>About me</h2>
         </div>
-        <div className="col-lg-6 d-flex justify-content-center custom-column">
-            <div className="">
-                <img className="custom-image" src={PaulineAlazard} title="" alt=""/>
-            </div>
+        </Row>
+        <Row>
+            <Col  xs={{number:12, order: 1}} lg={{number:5, order: 1}} xxl={{number:4, order: 1}} className="d-flex justify-content-center custom-column align-items-center">
+                <div className="">    
+                    <p className="custom-text-about">
+                        After obtaining a general engineering degree and working for three years in advanced technologies, I studied digital marketing and web analysis to become a webmaster. However, I couldn't ignore the new possibilities that programming offered, so I gave in to temptation and started several bootcamps, spending my days learning and experimenting with coding.<br></br><br></br>
+                        Being very curious, creative and perfectionist by nature, I don't stop at what I know, I'm always researching to achieve my project goals. With my background I consider myself a problem solver!!<br></br><br></br>
+                        I strongly believe that life is all about balance - mind, body and soul must be healthy and in harmony to achieve our goals. My passions, such as surfing, yoga, meditation, and reading… help me to move forward on my path and be unstoppable!
+                    </p>
+                </div>
+            </Col>
+            <Col xs={{number:12, order: 2}} lg={7} xxl={8} className="d-flex justify-content-center custom-column align-items-center">
+                <div className="">
+                    <img className="custom-image-about" src={AboutPauline} title="" alt=""/>
+                </div>
+            </Col>
+        </Row>
+        <div className='custom-buffer-small'></div>
+        <div className='custom-border'></div>
+        <div className='custom-buffer-medium'></div>
+        <Row>
+        <div className="">
+            <h3>Formation</h3>
         </div>
+        </Row>
     </WrapContainer>
   );
 }

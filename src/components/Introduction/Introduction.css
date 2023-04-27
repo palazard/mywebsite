@@ -1,13 +1,4 @@
-.custom-column{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.custom-border{
-    border-bottom: 3px solid var(--segundary-color);
-}
-
-.custom-image{
+.custom-image-intro{
     max-width: 100%;
     max-height: 450px;
 }
@@ -16,6 +7,6 @@
     margin-top: 1rem;
 }
 
-.custom-text{
+.custom-text-intro{
     max-width: 500px;
 }

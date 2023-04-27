@@ -1,0 +1,10 @@
+.custom-image-about{
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.custom-text-about::first-letter{
+    /* font-size: 1.5rem;
+    font-weight: bold; */
+    /* color: brown; */
+}
