@@ -1,15 +1,10 @@
-
-.custom-container{
-    min-height: 85vh;
-}
-
 .custom-column{
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .custom-border{
-    border-bottom: 3px solid var(--bs-primary);
+    border-bottom: 3px solid var(--segundary-color);
 }
 
 .custom-image{
@@ -21,6 +16,6 @@
     margin-top: 1rem;
 }
 
-.text{
+.custom-text{
     max-width: 500px;
 }

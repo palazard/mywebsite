@@ -1,8 +1,18 @@
 @media (min-width: 1200px){
   .custom-main-container{
-      left: 250px;
+      left: var(--sibebar-width);
       position: absolute;
       width: calc(100% - 250px);
+  }
+
+  .custom-main-container h1 {
+    font-size: 3rem;
+  }
+  .custom-main-container h2 {
+    font-size: 2.6rem;
+  }
+  .custom-main-container h3 {
+    font-size: 2.2rem;
   }
 }
 
@@ -13,17 +23,55 @@
     margin-left: auto;
 }
 
-
-
-.buffer{
+.custom-buffer{
   height: 5rem;
 }
 
 .btn-primary{
-  background-color: var(--bs-secondary);
-  border-color: var(--bs-secondary);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 .btn-primary:hover{
-  background-color: var(--bs-primary);
-  border-color: var(--bs-primary);
+  background-color: var(--segundary-color);
+  border-color: var(--segundary-color);
 }
+
+.custom-main-container h1 {
+  font-size: 3.5rem;
+}
+.custom-main-container h2 {
+  font-size: 3rem;
+}
+.custom-main-container h3 {
+  font-size: 2.5rem;
+}
+.custom-main-container h4 {
+  font-size: 2rem;
+}
+.custom-main-container h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.custom-main-container h6 {
+  font-size: 1rem;
+}
+.custom-main-container p {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+@media (max-width: 992px){
+  .custom-main-container h1 {
+    font-size: 2.6rem;
+  }
+  .custom-main-container h2 {
+    font-size: 2.2rem;
+  }
+  .custom-main-container h3 {
+    font-size: 2rem;
+  }
+  .custom-main-container h4 {
+    font-size: 1.8rem;
+  }
+}
+

@@ -30,6 +30,7 @@ function Sidebar() {
                 <Nav.Link href="#portfolio">Work Project</Nav.Link>
                 <Nav.Link href="#portfolio">CMS Websites</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
+                <div className='custom-buffer'></div>
             </Nav>
         </Offcanvas.Body>
       </Offcanvas>

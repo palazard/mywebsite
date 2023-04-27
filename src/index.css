@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
+/* Defining main variables */
+:root {
+  /* colors */
+  --white-color: #f0ffff;
+  --main-bg-color: #1A1B1D;
+  --segundary-bg-color: #131313;
+  --primary-color: #4f84b5;
+  --segundary-color: #3d4e60;
+    
+  /* main dimensions */
+  --sibebar-width: 250px;
 
+}
 
 body {
   margin: 0 auto;
@@ -9,10 +21,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #f0ffff;
-  --bs-primary: #3d4e60;
-  --bs-secondary: #4f84b5;
-  background-color: #1A1B1D;
+  color: var(--white-color);
+  background-color: var(--main-bg-color);
 }
 
 code {
@@ -24,58 +34,15 @@ code {
   padding: 0.6rem 1.2rem;
 }
 
-a, a:hover{
-  color: white;
+a {
+  color: var(--white-color);
   text-decoration: none;
 }
 
-.custom-main-container h1 {
-  font-size: 3.5rem;
-}
-.custom-main-container h2 {
-  font-size: 3rem;
-}
-.custom-main-container h3 {
-  font-size: 2.5rem;
-}
-.custom-main-container h4 {
-  font-size: 2rem;
-}
-.custom-main-container h5 {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-.custom-main-container h6 {
-  font-size: 1rem;
-}
-.custom-main-container p {
-  font-size: 1rem;
-  font-weight: 100;
+a:hover{
+  color: var(--bs-secondary);
+  text-decoration: none;
 }
 
-@media (max-width: 1200px){
-  .custom-main-container h1 {
-    font-size: 3rem;
-  }
-  .custom-main-container h2 {
-    font-size: 2.6rem;
-  }
-  .custom-main-container h3 {
-    font-size: 2.2rem;
-  }
-}
 
-@media (max-width: 992px){
-  .custom-main-container h1 {
-    font-size: 2.6rem;
-  }
-  .custom-main-container h2 {
-    font-size: 2.2rem;
-  }
-  .custom-main-container h3 {
-    font-size: 2rem;
-  }
-  .custom-main-container h4 {
-    font-size: 1.8rem;
-  }
-}
+
