@@ -1,0 +1,8 @@
+.custom-bg-carousel{
+    height: 400px;
+    /* background-color: var( --segundary-bg-color); */
+}
+
+.custom-logo-carousel{
+    max-height: 125px;
+}

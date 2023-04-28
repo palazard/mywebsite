@@ -1,20 +1,21 @@
 import React from 'react';
-// import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import AboutPauline from './about-pauline.png';
 import WrapContainer from '../wrappers/WrapContainer';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import CarouselEducation from '../CarouselEducation/CarouselEducation';
+// import Skills from '../Skills/Skills';
 import './About.css';
+
+
 
 function About() {
   return (
     <WrapContainer>
         <Row>
-        <div className="">
-            <h2>About me</h2>
-        </div>
+            <div className="">
+                <h2>About me</h2>
+            </div>
         </Row>
         <Row>
             <Col  xs={{number:12, order: 1}} lg={{number:5, order: 1}} xxl={{number:4, order: 1}} className="d-flex justify-content-center custom-column align-items-center">
@@ -32,14 +33,30 @@ function About() {
                 </div>
             </Col>
         </Row>
-        <div className='custom-buffer-small'></div>
-        <div className='custom-border'></div>
+        <div className='custom-buffer-small custom-border'></div>
         <div className='custom-buffer-medium'></div>
         <Row>
-        <div className="">
-            <h3>Formation</h3>
-        </div>
+            <div className="">
+                <h3>Education</h3>
+            </div>
         </Row>
+        <Row>
+            <CarouselEducation/>
+        </Row>
+        <div className='custom-buffer-small custom-border'></div>
+        <div className='custom-buffer-medium'></div>
+        {/* <Row>
+            <Col xm={12} md={12} xxl={6} className=" d-flex flex-column justify-content-center align-items-center"> 
+                <h3>Education</h3>
+                <CarouselEducation/>
+            </Col>
+            <Col xm={12} md={12} xxl={6} className=" d-flex flex-column justify-content-center align-items-center">
+                <h3>Skills</h3> 
+                <Skills/>
+            </Col>
+        </Row>
+        <div className='custom-buffer-small custom-border'></div>
+        <div className='custom-buffer-medium'></div> */}
     </WrapContainer>
   );
 }

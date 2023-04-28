@@ -1,0 +1,12 @@
+.skill-img {
+    max-height: 75px;
+    max-width: 75px;
+}
+
+.custom-skill-container{
+    max-width: 100%;
+}
+
+.bg-info{
+    background-color: var(--primary-color) !important;
+}
