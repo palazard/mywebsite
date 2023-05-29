@@ -9,14 +9,9 @@ import './About.css';
 import CarouselItem from '../CarouselItem';
 
 
-function About() {
+function About(props) {
   return (
-    <WrapContainer>
-        <Row>
-            <div className="">
-                <h2>About me</h2>
-            </div>
-        </Row>
+    <WrapContainer title={props.title}>
         <Row>
             <Col  xs={{number:12, order: 1}} lg={{number:5, order: 1}} xxl={{number:4, order: 1}} className="d-flex justify-content-center custom-column align-items-center">
                 <div className="">    
@@ -40,12 +35,8 @@ function About() {
             </div>
         </Row>
         <Row>
-            
-            <CarouselSlides renderComponent={(item)=><CarouselItem item={item}/>} data={data.education} theme="education"/>
-            
+            <CarouselSlides renderComponent={(item)=><CarouselItem item={item}/>} data={data.education}/>
         </Row>
-        <div className='custom-buffer-small custom-border'></div>
-        <div className='custom-buffer-medium'></div>
 
     </WrapContainer>
   );

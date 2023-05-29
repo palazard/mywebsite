@@ -8,13 +8,9 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import './Skills.css';
 
 
-function Skills() {
+function Skills(props) {
   return (
-    <WrapContainer>
-        <Row>
-            <h2>Skills</h2>
-            <div className='custom-buffer-medium'></div>
-        </Row>
+    <WrapContainer title={props.title}>
         <Row>
             <Col>
                 <h3>Technologies</h3>
@@ -134,25 +130,6 @@ function Skills() {
                 </Container> */}
             </Col>
         </Row>
-        {/* <Container as='ul' className='custom-skill-container'>
-            {data.map(skill=>
-                { return(
-                    <Row as="li">
-                        <Col xm={12} md={1} xxl={1} className="p-2 d-flex justify-content-center align-items-center"> 
-                            <img className="skill-img" src={skill.image} alt=""></img>
-                        </Col>
-                        <Col xm={12} md={3} xxl={3} className="p-2 d-flex justify-content-center align-items-center">
-                            <h5>{skill.skill}</h5>
-                        </Col>
-                        <Col xm={12} md={7} xxl={7} className="p-2 d-flex justify-content-center align-items-center">
-                            <ProgressBar animated variant="info" now={skill.pourcentage} className="w-100"/>
-                        </Col>
-                    </Row>
-                )}
-            )}           
-        </Container> */}
-        <div className='custom-buffer-small custom-border'></div>
-        <div className='custom-buffer-medium'></div>
     </WrapContainer>
   );
 }

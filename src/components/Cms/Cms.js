@@ -6,23 +6,12 @@ import data from "../../contentList.json";
 import CarouselItem from '../CarouselItem';
 
 
-function Cms() {
+function Cms(props) {
   return (
-    <WrapContainer>
+    <WrapContainer title={props.title}>
         <Row>
-            <div className="">
-                <h2>Coding Projects</h2>
-            </div>
+            <CarouselSlides renderComponent={(item)=><CarouselItem item={item}/>} data={data.cms}/>
         </Row>
-
-        <Row as="li">
-
-            <CarouselSlides renderComponent={(item)=><CarouselItem item={item}/>} data={data.cms} theme="cms"/>
-
-        </Row>
-
-        <div className='custom-buffer-small custom-border'></div>
-        <div className='custom-buffer-medium'></div>
     </WrapContainer>
   );
 }

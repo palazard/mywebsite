@@ -5,26 +5,13 @@ import CarouselSlides from '../CarouselSlides';
 import data from "../../contentList.json";
 import CarouselItem from '../CarouselItem';
 
-import './Projects.css';
 
-
-function Projects() {
+function Projects(props) {
   return (
-    <WrapContainer>
+    <WrapContainer title={props.title}>
         <Row>
-            <div className="">
-                <h2>Coding Projects</h2>
-            </div>
+            <CarouselSlides renderComponent={(item)=><CarouselItem item={item}/>} data={data.projects}/>
         </Row>
-
-        <Row as="li">
-
-            <CarouselSlides renderComponent={(item)=><CarouselItem item={item}/>} data={data.projects} theme="projects"/>
-
-        </Row>
-
-        <div className='custom-buffer-small custom-border'></div>
-        <div className='custom-buffer-medium'></div>
     </WrapContainer>
   );
 }

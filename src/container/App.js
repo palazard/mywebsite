@@ -16,11 +16,11 @@ function App() {
       <Sidebar/>
       <Container fluid="xxl" className="custom-main-container">
         <Introduction/>
-        <About/>
-        <Skills/>
-        <Projects/>
-        <Cms/>
-        <Contact/>
+        <About title="About me"/>
+        <Skills title="Skills"/>
+        <Projects title="Coding Projects"/>
+        <Cms title="CMS Websites"/>
+        <Contact title="Contact me"/>
       </Container>
     </div>
   );
