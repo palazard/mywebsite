@@ -3,9 +3,11 @@ import Introduction from '../components/Introduction/Introduction';
 import Container from 'react-bootstrap/Container';
 import About from '../components/About/About';
 import Skills from '../components/Skills/Skills';
-import Work from '../components/Work/Work';
-
+import Projects from '../components/Projects/Projects';
+import Cms from '../components/Cms/Cms';
 import './App.css';
+import Contact from '../components/Contact/Contact';
+
 
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
         <Introduction/>
         <About/>
         <Skills/>
-        <Work/>
+        <Projects/>
+        <Cms/>
+        <Contact/>
       </Container>
     </div>
   );

@@ -3,10 +3,10 @@ import AboutPauline from './about-pauline.png';
 import WrapContainer from '../wrappers/WrapContainer';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import CarouselEducation from '../CarouselEducation/CarouselEducation';
-// import Skills from '../Skills/Skills';
+import CarouselSlides from '../CarouselSlides';
+import data from "../../contentList.json";
 import './About.css';
-
+import CarouselItem from '../CarouselItem';
 
 
 function About() {
@@ -33,7 +33,6 @@ function About() {
                 </div>
             </Col>
         </Row>
-        <div className='custom-buffer-small custom-border'></div>
         <div className='custom-buffer-medium'></div>
         <Row>
             <div className="">
@@ -41,22 +40,13 @@ function About() {
             </div>
         </Row>
         <Row>
-            <CarouselEducation/>
+            
+            <CarouselSlides renderComponent={(item)=><CarouselItem item={item}/>} data={data.education} theme="education"/>
+            
         </Row>
         <div className='custom-buffer-small custom-border'></div>
         <div className='custom-buffer-medium'></div>
-        {/* <Row>
-            <Col xm={12} md={12} xxl={6} className=" d-flex flex-column justify-content-center align-items-center"> 
-                <h3>Education</h3>
-                <CarouselEducation/>
-            </Col>
-            <Col xm={12} md={12} xxl={6} className=" d-flex flex-column justify-content-center align-items-center">
-                <h3>Skills</h3> 
-                <Skills/>
-            </Col>
-        </Row>
-        <div className='custom-buffer-small custom-border'></div>
-        <div className='custom-buffer-medium'></div> */}
+
     </WrapContainer>
   );
 }

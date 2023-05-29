@@ -1,0 +1,187 @@
+{
+    "education" : [
+        {
+            "title" : "Industrial Engineering Degree",
+            "logo" : "schools/icam.png",
+            "date" : "2009-2014",
+            "school" : "Institut Catholique des Arts et Métiers"
+        },
+        {
+            "title" : "Full Stack Developement Bootcamps",
+            "logo" : "schools/ztm.png",
+            "date" : "2023",
+            "school" : "Zero to Mastery Academy"
+        },
+        {
+            "title" : "Full Stack Developement Bootcamps",
+            "logo" : "schools/london-app-brewery.png",
+            "date" : "2023",
+            "school" : "London App Brewery"
+        },
+        {
+            "title" : "Master in Digital Marketing and Web Analytics",
+            "logo" : "schools/neetwork-blanco.png",
+            "date" : "2020-2021",
+            "school" : "Neetwork Business School"
+        }
+    ],
+
+    "technologies" : [ 
+        {
+            "image": "skillLogos/html.png",
+            "skill": "HTML",
+            "pourcentage": 95
+        },
+        {
+            "image": "skillLogos/css.png",
+            "skill": "CSS",
+            "pourcentage": 80
+        },
+        {
+            "image": "skillLogos/javascript.png",
+            "skill": "JavaScript",
+            "pourcentage": 80
+        },
+        {
+            "image": "skillLogos/react.png",
+            "skill": "React.js",
+            "pourcentage": 85
+        },
+        {
+            "image": "skillLogos/bootstrap.png",
+            "skill": "Bootstrap",
+            "pourcentage": 85
+        }
+    ],
+    "technologies2" : [
+        {
+            "image": "skillLogos/nodejs.png",
+            "skill": "Node.js",
+            "pourcentage": 75
+        },
+        {
+            "image": "skillLogos/sql.png",
+            "skill": "SQL",
+            "pourcentage": 75
+        },
+        {
+            "image": "skillLogos/redux.png",
+            "skill": "Redux",
+            "pourcentage": 60
+        },
+        {
+            "image": "skillLogos/express.png",
+            "skill": "Express",
+            "pourcentage": 75
+        }
+    ],
+    "technologies3" : [ 
+        {
+            "image": "skillLogos/ajax.png",
+            "skill": "AJAX",
+            "pourcentage": 85
+        },
+        {
+            "image": "skillLogos/npm.png",
+            "skill": "NPM",
+            "pourcentage": 85
+        },
+        {
+            "image": "skillLogos/git.png",
+            "skill": "GIT",
+            "pourcentage": 90
+        },
+        {
+            "image": "skillLogos/visual-studio-code.png",
+            "skill": "VSCode",
+            "pourcentage": 85
+        }
+    ],
+
+    "human" : [
+        {
+            "quality": "Teamwork"
+        },
+        {
+            "quality": "Culture change"
+        },
+        {
+            "quality": "Project management"
+        },
+        {
+            "quality": "Organization"
+        },
+        {
+            "quality": "Communication"
+        },
+        {
+            "quality": "Self-directed learning"
+        }
+    ],
+
+    "languages" : [
+        {
+            "language": "French",
+            "flag": "flags/france.webp",
+            "pourcentage": 100
+        },
+        {
+            "language": "Spanish",
+            "flag": "flags/france.webp",
+            "pourcentage": 95
+        },
+        {
+            "language": "English",
+            "flag": "flags/france.webp",
+            "pourcentage": 90
+        },
+        {
+            "language": "Portuguese",
+            "flag": "flags/france.webp",
+            "pourcentage": 30
+        }
+    ],
+
+    "projects" : [
+        {
+            "title" : "DApp NFT marketplace",
+            "image" : "work/nft-marketplace.jpg",
+            "link" : "https://github.com/palazard/nft-marketplace-web3",
+            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+        },
+        {
+            "title" : "DApp NFT marketplace",
+            "image" : "work/nft-marketplace.jpg",
+            "link" : "https://github.com/palazard/nft-marketplace-web3",
+            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+        },
+        {
+            "title" : "DApp NFT marketplace",
+            "image" : "work/nft-marketplace.jpg",
+            "link" : "https://github.com/palazard/nft-marketplace-web3",
+            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+        }
+    ],
+    
+    "cms" : [
+        {
+            "title" : "DApp NFT marketplace",
+            "image" : "work/nft-marketplace.jpg",
+            "link" : "https://github.com/palazard/nft-marketplace-web3",
+            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+        },
+        {
+            "title" : "DApp NFT marketplace",
+            "image" : "work/nft-marketplace.jpg",
+            "link" : "https://github.com/palazard/nft-marketplace-web3",
+            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+        },
+        {
+            "title" : "DApp NFT marketplace",
+            "image" : "work/nft-marketplace.jpg",
+            "link" : "https://github.com/palazard/nft-marketplace-web3",
+            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+        }
+    ]
+
+}
