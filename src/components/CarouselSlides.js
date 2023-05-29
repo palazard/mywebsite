@@ -1,6 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React, { useState, useEffect } from 'react';
 import './CarouselSlides.css';
+import { Row } from 'react-bootstrap';
+import CarouselItem from './CarouselItem';
 
 function CarouselSlide ({renderComponent, data}) {
 
@@ -28,15 +30,17 @@ function CarouselSlide ({renderComponent, data}) {
 
 
     return (
+      <Row>
         <Carousel interval={2000} indicators={indicatorsState} controls={controlsState}>
           {data.map((item,i)=>
               { return(
                 <Carousel.Item key={i}>
-                    {renderComponent(item)}
+                    <CarouselItem item={item}/>
                 </Carousel.Item>
               )}
           )}       
         </Carousel>
+      </Row>
     );
 }
 

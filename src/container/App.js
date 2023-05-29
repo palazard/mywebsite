@@ -7,6 +7,7 @@ import Projects from '../components/Projects/Projects';
 import Cms from '../components/Cms/Cms';
 import './App.css';
 import Contact from '../components/Contact/Contact';
+import data from "../contentList.json";
 
 
 
@@ -16,10 +17,10 @@ function App() {
       <Sidebar/>
       <Container fluid="xxl" className="custom-main-container">
         <Introduction/>
-        <About title="About me"/>
+        <About title="About me" data={data.education}/>
         <Skills title="Skills"/>
-        <Projects title="Coding Projects"/>
-        <Cms title="CMS Websites"/>
+        <Projects title="Coding Projects" data={data.projects}/>
+        <Cms title="CMS Websites" data={data.cms}/>
         <Contact title="Contact me"/>
       </Container>
     </div>

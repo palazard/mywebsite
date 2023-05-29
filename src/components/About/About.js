@@ -4,14 +4,12 @@ import WrapContainer from '../wrappers/WrapContainer';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CarouselSlides from '../CarouselSlides';
-import data from "../../contentList.json";
 import './About.css';
-import CarouselItem from '../CarouselItem';
 
 
-function About(props) {
+function About({title, data}) {
   return (
-    <WrapContainer title={props.title}>
+    <WrapContainer title={title}>
         <Row>
             <Col  xs={{number:12, order: 1}} lg={{number:5, order: 1}} xxl={{number:4, order: 1}} className="d-flex justify-content-center custom-column align-items-center">
                 <div className="">    
@@ -34,9 +32,8 @@ function About(props) {
                 <h3>Education</h3>
             </div>
         </Row>
-        <Row>
-            <CarouselSlides renderComponent={(item)=><CarouselItem item={item}/>} data={data.education}/>
-        </Row>
+
+        <CarouselSlides data={data}/>
 
     </WrapContainer>
   );

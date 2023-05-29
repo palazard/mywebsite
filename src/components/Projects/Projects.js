@@ -1,17 +1,12 @@
 import React from 'react';
 import WrapContainer from '../wrappers/WrapContainer';
-import Row from 'react-bootstrap/Row';
 import CarouselSlides from '../CarouselSlides';
-import data from "../../contentList.json";
-import CarouselItem from '../CarouselItem';
 
 
-function Projects(props) {
+function Projects({title, data}) {
   return (
-    <WrapContainer title={props.title}>
-        <Row>
-            <CarouselSlides renderComponent={(item)=><CarouselItem item={item}/>} data={data.projects}/>
-        </Row>
+    <WrapContainer title={title}>
+        <CarouselSlides data={data}/>
     </WrapContainer>
   );
 }
