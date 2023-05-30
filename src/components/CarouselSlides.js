@@ -4,7 +4,7 @@ import './CarouselSlides.css';
 import { Row } from 'react-bootstrap';
 import CarouselItem from './CarouselItem';
 
-function CarouselSlide ({renderComponent, data}) {
+function CarouselSlide ({data}) {
 
     const [indicatorsState, setIndicatorsState] = useState(undefined);
     const [controlsState, setControlsState] = useState(undefined);

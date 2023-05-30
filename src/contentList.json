@@ -1,4 +1,21 @@
 {
+    "introduction" : [
+        {
+            "name": "Pauline Alazard",
+            "resume": "Industrial engineer / Full Stack Developer / Problems Solver",
+            "description" : "Who love learning or creating new things and surfing around the world...",
+            "image" : "/public/introduction/about-pauline-alazard.png",
+            "cv" : "/public/introduction/CV Pauline ALAZARD.pdf"
+        }
+    ],
+    
+    "about" : [
+        {
+            "description" : "After obtaining a general engineering degree and working for three years in advanced technologies, I studied digital marketing and web analysis to become a webmaster. However, I couldn't ignore the new possibilities that programming offered, so I gave in to temptation and started several bootcamps, spending my days learning and experimenting with coding.<br></br><br></br> Being very curious, creative and perfectionist by nature, I don't stop at what I know, I'm always researching to achieve my project goals. With my background I consider myself a problem solver!!<br></br><br></br>I strongly believe that life is all about balance - mind, body and soul must be healthy and in harmony to achieve our goals. My passions, such as surfing, yoga, meditation, and reading… help me to move forward on my path and be unstoppable!",
+            "image" : "/public/about/about-pauline.png"
+        }
+    ],
+
     "education" : [
         {
             "title" : "Industrial Engineering Degree",
@@ -51,9 +68,7 @@
             "image": "skillLogos/bootstrap.png",
             "skill": "Bootstrap",
             "pourcentage": 85
-        }
-    ],
-    "technologies2" : [
+        },
         {
             "image": "skillLogos/nodejs.png",
             "skill": "Node.js",
@@ -73,9 +88,7 @@
             "image": "skillLogos/express.png",
             "skill": "Express",
             "pourcentage": 75
-        }
-    ],
-    "technologies3" : [ 
+        },
         {
             "image": "skillLogos/ajax.png",
             "skill": "AJAX",

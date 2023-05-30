@@ -18,7 +18,7 @@ function App() {
       <Container fluid="xxl" className="custom-main-container">
         <Introduction/>
         <About title="About me" data={data.education}/>
-        <Skills title="Skills"/>
+        <Skills title="Skills" dataTechnologies={data.technologies} dataHumanSkills={data.human} dataLanguages={data.languages}/>
         <Projects title="Coding Projects" data={data.projects}/>
         <Cms title="CMS Websites" data={data.cms}/>
         <Contact title="Contact me"/>
