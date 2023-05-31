@@ -4,15 +4,15 @@
             "name": "Pauline Alazard",
             "resume": "Industrial engineer / Full Stack Developer / Problems Solver",
             "description" : "Who love learning or creating new things and surfing around the world...",
-            "image" : "/public/introduction/about-pauline-alazard.png",
-            "cv" : "/public/introduction/CV Pauline ALAZARD.pdf"
+            "image" : "introduction/pauline-alazard.png",
+            "cv" : "introduction/CV Pauline ALAZARD.pdf"
         }
     ],
-    
+
     "about" : [
         {
-            "description" : "After obtaining a general engineering degree and working for three years in advanced technologies, I studied digital marketing and web analysis to become a webmaster. However, I couldn't ignore the new possibilities that programming offered, so I gave in to temptation and started several bootcamps, spending my days learning and experimenting with coding.<br></br><br></br> Being very curious, creative and perfectionist by nature, I don't stop at what I know, I'm always researching to achieve my project goals. With my background I consider myself a problem solver!!<br></br><br></br>I strongly believe that life is all about balance - mind, body and soul must be healthy and in harmony to achieve our goals. My passions, such as surfing, yoga, meditation, and reading… help me to move forward on my path and be unstoppable!",
-            "image" : "/public/about/about-pauline.png"
+            "description" : "After obtaining a general engineering degree and working for three years in advanced technologies, I studied digital marketing and web analysis to become a webmaster. However, I couldn't ignore the new possibilities that programming offered, so I gave in to temptation and started several bootcamps, spending my days learning and experimenting with coding.\n \nBeing very curious, creative and perfectionist by nature, I don't stop at what I know, I'm always researching to achieve my project goals. With my background I consider myself a problem solver!!\n\n\n I strongly believe that life is all about balance - mind, body and soul must be healthy and in harmony to achieve our goals. My passions, such as surfing, yoga, meditation, and reading… help me to move forward on my path and be unstoppable!",
+            "image" : "about/about-pauline.png"
         }
     ],
 
@@ -80,6 +80,26 @@
             "pourcentage": 75
         },
         {
+            "image": "skillLogos/postgresql.png",
+            "skill": "PostgreSQL",
+            "pourcentage": 75
+        },
+        {
+            "image": "skillLogos/mongodb.png",
+            "skill": "MongoDB",
+            "pourcentage": 75
+        },
+        {
+            "image": "skillLogos/mongoose.png",
+            "skill": "Mongoose",
+            "pourcentage": 75
+        },
+        {
+            "image": "skillLogos/json.png",
+            "skill": "JSON",
+            "pourcentage": 75
+        },
+        {
             "image": "skillLogos/redux.png",
             "skill": "Redux",
             "pourcentage": 60
@@ -105,9 +125,34 @@
             "pourcentage": 90
         },
         {
+            "image": "skillLogos/bash.png",
+            "skill": "Bash",
+            "pourcentage": 90
+        },
+        {
+            "image": "skillLogos/terminal.png",
+            "skill": "Terminal",
+            "pourcentage": 90
+        },
+        {
+            "image": "skillLogos/ubuntu.png",
+            "skill": "Ubuntu",
+            "pourcentage": 90
+        },
+        {
             "image": "skillLogos/visual-studio-code.png",
             "skill": "VSCode",
             "pourcentage": 85
+        },
+        {
+            "image": "skillLogos/dfinity.png",
+            "skill": "Dfinity",
+            "pourcentage": 90
+        },
+        {
+            "image": "skillLogos/wordpress.avif",
+            "skill": "WordPress",
+            "pourcentage": 90
         }
     ],
 
@@ -135,22 +180,22 @@
     "languages" : [
         {
             "language": "French",
-            "flag": "flags/france.webp",
+            "flag": "flags/french.png",
             "pourcentage": 100
         },
         {
             "language": "Spanish",
-            "flag": "flags/france.webp",
+            "flag": "flags/spanish.png",
             "pourcentage": 95
         },
         {
             "language": "English",
-            "flag": "flags/france.webp",
+            "flag": "flags/english.png",
             "pourcentage": 90
         },
         {
             "language": "Portuguese",
-            "flag": "flags/france.webp",
+            "flag": "flags/portuguese.png",
             "pourcentage": 30
         }
     ],
@@ -158,41 +203,65 @@
     "projects" : [
         {
             "title" : "DApp NFT marketplace",
-            "image" : "work/nft-marketplace.jpg",
+            "image" : "projects/nft-marketplace.jpg",
             "link" : "https://github.com/palazard/nft-marketplace-web3",
             "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
         },
         {
-            "title" : "DApp NFT marketplace",
-            "image" : "work/nft-marketplace.jpg",
-            "link" : "https://github.com/palazard/nft-marketplace-web3",
-            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+            "title" : "Smart Brain",
+            "image" : "projects/smart-brain.jpg",
+            "link" : "https://github.com/palazard/smart-brain",
+            "description" : "This Magic Brain will detect the faces in your pictures."
         },
         {
-            "title" : "DApp NFT marketplace",
-            "image" : "work/nft-marketplace.jpg",
-            "link" : "https://github.com/palazard/nft-marketplace-web3",
-            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+            "title" : "ToDo List App",
+            "image" : "projects/todolist.jpg",
+            "link" : "https://github.com/palazard/todolist-v2-fullapp",
+            "description" : "Keep your notes safe with this app."
+        },
+        {
+            "title" : "DreamsLoom Token App",
+            "image" : "projects/dreamsloomtokens.jpg",
+            "link" : "https://github.com/palazard/dreamsloom-tokens-app",
+            "description" : "Get your free DreamsLoom tokens here! And transfer to your friends..."
+        },
+        {
+            "title" : "Harry Potter",
+            "image" : "projects/harrypotter.jpg",
+            "link" : "https://github.com/palazard/harrypotter",
+            "description" : "Which caracter of Harry Potter are you?"
         }
     ],
     
     "cms" : [
         {
             "title" : "Holistic Surf",
-            "image" : "work/nft-marketplace.jpg",
-            "link" : "https://github.com/palazard/nft-marketplace-web3",
+            "image" : "cms/holisticsurf.jpg",
+            "link" : "https://holisticsurf.com/",
             "description" : "Oficial website of a surfcamp in Panama"
         },
         {
-            "title" : "DApp NFT marketplace",
-            "image" : "work/nft-marketplace.jpg",
-            "link" : "https://github.com/palazard/nft-marketplace-web3",
+            "title" : "Captura Monster",
+            "image" : "cms/captura.jpg",
+            "link" : "https://captura.monster/",
             "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
         },
         {
-            "title" : "DApp NFT marketplace",
-            "image" : "work/nft-marketplace.jpg",
-            "link" : "https://github.com/palazard/nft-marketplace-web3",
+            "title" : "Nalu Souls",
+            "image" : "cms/nalusouls.jpg",
+            "link" : "https://nalusouls.com/",
+            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+        },
+        {
+            "title" : "Surfactory Academy",
+            "image" : "cms/surfactory-academy.jpg",
+            "link" : "https://surfactoryacademy.com/",
+            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+        },
+        {
+            "title" : "The Wall Construction Panama",
+            "image" : "cms/thewallconstructionpanama.jpg",
+            "link" : "https://thewallconstructionpanama.com/",
             "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
         }
     ]

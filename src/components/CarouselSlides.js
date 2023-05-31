@@ -31,7 +31,7 @@ function CarouselSlide ({data}) {
 
     return (
       <Row>
-        <Carousel interval={2000} indicators={indicatorsState} controls={controlsState}>
+        <Carousel interval={2000} indicators={indicatorsState} controls={controlsState} className='p-0'>
           {data.map((item,i)=>
               { return(
                 <Carousel.Item key={i}>

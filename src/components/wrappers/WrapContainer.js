@@ -7,7 +7,7 @@ import './WrapContainer.css';
 
 const WrapContainer = (props) => {
   return (
-    <Container fluid="xxl" className="custom-container row p-lg-3 p-md-2 full-screen justify-content-center">
+    <Container fluid="xxl" className="custom-container row p-0 full-screen justify-content-center">
       <Row>
         <h2>{props.title}</h2>
         <div className='custom-buffer-medium'></div>

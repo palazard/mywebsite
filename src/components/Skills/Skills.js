@@ -24,8 +24,9 @@ function Skills({title, dataTechnologies, dataHumanSkills, dataLanguages}) {
         <WrapContainer title={title}>
             <Row>
                 <h3>Technologies</h3>
+                <div className='custom-buffer-small'></div>
             </Row>
-            <Row>
+            <Row >
                 <SkillColumn arrayOfSkills = {arraySkill1} />
                 <SkillColumn arrayOfSkills = {arraySkill2} />
                 <SkillColumn arrayOfSkills = {arraySkill3} />
@@ -34,7 +35,8 @@ function Skills({title, dataTechnologies, dataHumanSkills, dataLanguages}) {
             <Row>
                 <Col sm={12} md={4}>
                     <h3>Human Skills</h3>
-                    <Container as="ul">
+                    <div className='custom-buffer-small'></div>
+                    <Container as="ul" className='ms-2'>
                         {dataHumanSkills.map((skill,i)=>
                             { return(
                                 <li className="p-3" key={i}>
@@ -42,10 +44,12 @@ function Skills({title, dataTechnologies, dataHumanSkills, dataLanguages}) {
                                 </li>
                             )}
                         )}
-                    </Container>        
+                    </Container>     
+                    <div className='custom-buffer-small'></div>   
                 </Col>
                 <Col sm={12} md={8}>
                     <h3>Languages</h3>
+                    <div className='custom-buffer-small'></div>
                     <Container as="ul">
                         {dataLanguages.map((skill,i)=>
                             { 
