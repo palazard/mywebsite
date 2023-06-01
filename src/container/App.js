@@ -21,7 +21,7 @@ function App() {
         <Skills title="Skills" dataTechnologies={data.technologies} dataHumanSkills={data.human} dataLanguages={data.languages}/>
         <Projects title="Coding Projects" data={data.projects}/>
         <Cms title="CMS Websites" data={data.cms}/>
-        <Contact title="Contact me"/>
+        <Contact title="Contact me" data={data.contact}/>
       </Container>
     </div>
   );

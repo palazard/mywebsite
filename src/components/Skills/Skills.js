@@ -39,7 +39,8 @@ function Skills({title, dataTechnologies, dataHumanSkills, dataLanguages}) {
                     <Container as="ul" className='ms-2'>
                         {dataHumanSkills.map((skill,i)=>
                             { return(
-                                <li className="p-3" key={i}>
+                                <li style={{listStyle: 'none'}} className="pb-4 d-flex align-items-center" key={i}>
+                                    <i style={{fontSize: "25px", color: "white", paddingRight:"10px"}} className={skill.icon}></i>
                                     {skill.quality}
                                 </li>
                             )}

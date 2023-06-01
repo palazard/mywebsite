@@ -46,134 +46,118 @@
     "technologies" : [ 
         {
             "image": "skillLogos/html.png",
-            "skill": "HTML",
-            "pourcentage": 95
+            "skill": "HTML"
         },
         {
             "image": "skillLogos/css.png",
-            "skill": "CSS",
-            "pourcentage": 80
+            "skill": "CSS"
         },
         {
             "image": "skillLogos/javascript.png",
-            "skill": "JavaScript",
-            "pourcentage": 80
+            "skill": "JavaScript"
         },
         {
             "image": "skillLogos/react.png",
-            "skill": "React.js",
-            "pourcentage": 85
+            "skill": "React.js"
         },
         {
             "image": "skillLogos/bootstrap.png",
-            "skill": "Bootstrap",
-            "pourcentage": 85
+            "skill": "Bootstrap"
         },
         {
             "image": "skillLogos/nodejs.png",
-            "skill": "Node.js",
-            "pourcentage": 75
+            "skill": "Node.js"
         },
         {
             "image": "skillLogos/sql.png",
-            "skill": "SQL",
-            "pourcentage": 75
+            "skill": "SQL"
         },
         {
             "image": "skillLogos/postgresql.png",
-            "skill": "PostgreSQL",
-            "pourcentage": 75
+            "skill": "PostgreSQL"
         },
         {
             "image": "skillLogos/mongodb.png",
-            "skill": "MongoDB",
-            "pourcentage": 75
+            "skill": "MongoDB"
         },
         {
             "image": "skillLogos/mongoose.png",
-            "skill": "Mongoose",
-            "pourcentage": 75
+            "skill": "Mongoose"
         },
         {
             "image": "skillLogos/json.png",
-            "skill": "JSON",
-            "pourcentage": 75
+            "skill": "JSON"
         },
         {
             "image": "skillLogos/redux.png",
-            "skill": "Redux",
-            "pourcentage": 60
+            "skill": "Redux"
         },
         {
             "image": "skillLogos/express.png",
-            "skill": "Express",
-            "pourcentage": 75
+            "skill": "Express"
         },
         {
             "image": "skillLogos/ajax.png",
-            "skill": "AJAX",
-            "pourcentage": 85
+            "skill": "AJAX"
         },
         {
             "image": "skillLogos/npm.png",
-            "skill": "NPM",
-            "pourcentage": 85
+            "skill": "NPM"
         },
         {
             "image": "skillLogos/git.png",
-            "skill": "GIT",
-            "pourcentage": 90
+            "skill": "GIT"
         },
         {
             "image": "skillLogos/bash.png",
-            "skill": "Bash",
-            "pourcentage": 90
+            "skill": "Bash"
         },
         {
             "image": "skillLogos/terminal.png",
-            "skill": "Terminal",
-            "pourcentage": 90
+            "skill": "Terminal"
         },
         {
             "image": "skillLogos/ubuntu.png",
-            "skill": "Ubuntu",
-            "pourcentage": 90
+            "skill": "Ubuntu"
         },
         {
             "image": "skillLogos/visual-studio-code.png",
-            "skill": "VSCode",
-            "pourcentage": 85
+            "skill": "VSCode"
         },
         {
             "image": "skillLogos/dfinity.png",
-            "skill": "Dfinity",
-            "pourcentage": 90
+            "skill": "Dfinity"
         },
         {
             "image": "skillLogos/wordpress.avif",
-            "skill": "WordPress",
-            "pourcentage": 90
+            "skill": "WordPress"
         }
     ],
 
     "human" : [
         {
-            "quality": "Teamwork"
+            "quality": "Teamwork",
+            "icon" : "bi bi-people"
         },
         {
-            "quality": "Culture change"
+            "quality": "Culture change",
+            "icon": "bi bi-airplane"
         },
         {
-            "quality": "Project management"
+            "quality": "Project management",
+            "icon":"bi bi-calendar4"
         },
         {
-            "quality": "Organization"
+            "quality": "Organization",
+            "icon": "bi bi-sort-up-alt"
         },
         {
-            "quality": "Communication"
+            "quality": "Communication",
+            "icon": "bi bi-chat-square-text"
         },
         {
-            "quality": "Self-directed learning"
+            "quality": "Self-directed learning",
+            "icon" : "bi bi-mortarboard"
         }
     ],
 
@@ -263,6 +247,33 @@
             "image" : "cms/thewallconstructionpanama.jpg",
             "link" : "https://thewallconstructionpanama.com/",
             "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+        }
+    ],
+
+    "contact" : [
+        {
+            "title" : "alazard.pauline@gmail.com",
+            "icon": "bi bi-envelope",
+            "button": "Email me!",
+            "link": "mailto:alazard.pauline@gmail.com"
+        },
+        {
+            "title" : "+33 632 002 442",
+            "icon": "bi bi-whatsapp",
+            "button": "Send a message!",
+            "link": "https://wa.me/33632002442"
+        },
+        {
+            "title" : "GitHub",
+            "icon": "bi bi-github",
+            "button": "Follow me!",
+            "link": "https://github.com/palazard"
+        },
+        {
+            "title" : "+33 632 002 442",
+            "icon": "bi bi-linkedin",
+            "button": "Let's connect!",
+            "link": "https://www.linkedin.com/in/pauline-alazard/"
         }
     ]
 

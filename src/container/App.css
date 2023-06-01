@@ -63,7 +63,7 @@
   .custom-main-container{
       left: var(--sibebar-width);
       position: absolute;
-      width: calc(100% - 250px);
+      width: calc(100% - var(--sibebar-width));
   }
 
   /* .custom-main-container h1 {
