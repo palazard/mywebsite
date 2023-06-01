@@ -24,7 +24,7 @@
     left: 0;
     bottom: 0;
     width: var(--sibebar-width);
-    z-index: 100;
+    z-index: 3000;
     background-color: var(--segundary-bg-color) !important;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@
 }
 
 .offcanvas-backdrop.show{
-    opacity: 0;
+    opacity: 0.2;
 }
 
 .custom-nav{
