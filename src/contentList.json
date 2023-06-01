@@ -1,5 +1,4 @@
 {
-    
     "introduction" : [
         {
             "name": "Pauline Alazard",
@@ -223,31 +222,31 @@
             "title" : "Holistic Surf",
             "image" : "cms/holisticsurf.jpg",
             "link" : "https://holisticsurf.com/",
-            "description" : "Oficial website of a surfcamp in Panama"
+            "description" : "Website for a Surf Camp in Panama, with interactives forms, created with Wordpress."
         },
         {
             "title" : "Captura Monster",
             "image" : "cms/captura.jpg",
             "link" : "https://captura.monster/",
-            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+            "description" : "Ecommerce for fishermen created with WordPress."
         },
         {
             "title" : "Nalu Souls",
             "image" : "cms/nalusouls.jpg",
             "link" : "https://nalusouls.com/",
-            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+            "description" : "Multilingual Membership Website created with WordPress."
         },
         {
             "title" : "Surfactory Academy",
             "image" : "cms/surfactory-academy.jpg",
             "link" : "https://surfactoryacademy.com/",
-            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+            "description" : "Official website for a Surf School in Panama created with WordPress"
         },
         {
             "title" : "The Wall Construction Panama",
             "image" : "cms/thewallconstructionpanama.jpg",
             "link" : "https://thewallconstructionpanama.com/",
-            "description" : "Mint, sell & buy NFTs on this decentralized marketplace on Internet Computer."
+            "description" : "Portfolio Web created with WordPress for a construction Company."
         }
     ],
 
