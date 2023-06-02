@@ -4,10 +4,12 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Nav from 'react-bootstrap/Nav';
 import './Sidebar.css';
 import { Link} from 'react-scroll';
+import { ThemeContext, themes } from '../wrappers/themeContext';
 
 
 function Sidebar({name}) {
   const [show, setShow] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -44,6 +46,20 @@ function Sidebar({name}) {
                 <Nav.Link href="#contact">Contact</Nav.Link>
               </Link>
               <div className='custom-buffer'></div>
+              <ThemeContext.Consumer>
+                {({ changeTheme }) => (
+                  <Button
+                    color="link"
+                    onClick={() => {
+                      setDarkMode(!darkMode);
+                      changeTheme(darkMode ? themes.light : themes.dark);
+                    }}
+                  >
+                    <i className={darkMode ? 'fas fa-sun' : 'fas fa-moon'}></i>
+                    <span className="d-lg-none d-md-block">Switch mode</span>
+                  </Button>
+                )}
+              </ThemeContext.Consumer>
             </Nav>
         </Offcanvas.Body>
       </Offcanvas>

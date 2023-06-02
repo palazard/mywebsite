@@ -1,6 +1,6 @@
 import React from 'react';
 import WrapContainer from '../wrappers/WrapContainer';
-import CarouselSlides from '../CarouselSlides';
+import CarouselSlides from '../Carousel/CarouselSlides';
 
 
 function Projects({title, data}) {

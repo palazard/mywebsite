@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import SkillColumn from './SkillColumn/SkillColumn';
+import SkillColumn from './SkillColumn';
 import './Skills.css';
 
 

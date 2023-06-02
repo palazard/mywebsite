@@ -5,7 +5,9 @@
   /* colors */
   --white-color: #f0ffff;
   --main-bg-color: #1A1B1D;
+  --main-light-bg-color: #e0edff;
   --segundary-bg-color: #131313;
+  --segundary-light-bg-color: #aebbc8;
   --primary-color: #4f84b5;
   --segundary-color: #3d4e60;
     
@@ -23,6 +25,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--white-color);
   background-color: var(--main-bg-color);
+}
+
+.light-mode {
+  background: var(--main-light-bg-color);
+  color: var( --segundary-bg-color);
+}
+.light-mode-sidebar {
+  background: var(--main-light-bg-color) !important;
+  color: var( --segundary-bg-color);
 }
 
 code {
@@ -53,3 +64,5 @@ li {
   font-size: 1rem;
   font-weight: 100;
 }
+
+

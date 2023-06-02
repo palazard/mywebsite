@@ -35,7 +35,6 @@ function App() {
         <Element name="contact" >
           <Contact title="Contact me" data={data.contact}/>
         </Element>
-        
       </Container>
     </div>
   );

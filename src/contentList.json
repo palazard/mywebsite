@@ -131,6 +131,10 @@
         {
             "image": "skillLogos/wordpress.avif",
             "skill": "WordPress"
+        },
+        {
+            "image": "skillLogos/chatgpt.png",
+            "skill": "ChatGPT"
         }
     ],
 
