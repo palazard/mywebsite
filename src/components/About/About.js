@@ -2,7 +2,7 @@ import React from 'react';
 import WrapContainer from '../wrappers/WrapContainer';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import CarouselSlides from '../CarouselSlides';
+import CarouselSlides from '../Carousel/CarouselSlides';
 import './About.css';
 
 
