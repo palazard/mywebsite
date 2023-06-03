@@ -15,7 +15,7 @@ function Contact({title, data}) {
           {data.map((contact,i)=>
             { return(
               <Col sm={6} lg={unitColumns} className="d-flex align-items-center justify-content-evenly p-2">
-                <div className="card d-flex align-items-center justify-content-center pt-4 pb-3" style={{width: "250px"}} >
+                <div className="anim-bounce card d-flex align-items-center justify-content-center pt-4 pb-3" style={{width: "250px"}} >
                   <i style={{fontSize: "80px", color: "#4f84b5", paddingRight:"10px"}} className={contact.icon}/>
                   <div className="card-body d-flex flex-column align-items-center justify-content-center">
                       <p style={{color: "#4f84b5"}} className="card-text">{contact.title}</p>

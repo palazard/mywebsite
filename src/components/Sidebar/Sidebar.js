@@ -25,22 +25,22 @@ function Sidebar({name}) {
         <Offcanvas.Body className="custom-vertical">
           <Offcanvas.Title>{name}</Offcanvas.Title>
             <Nav className="mr-auto custom-vertical custom-nav">
-              <Link as='Nav.Link' to="home" spy={true} smooth={true} duration={500} offset={-50} onClick={handleClose}>
+              <Link as='Nav.Link' to="home" spy={true} smooth={true} duration={500} offset={-50} className='anim-grow' onClick={handleClose}>
                 <Nav.Link href="#home">Home</Nav.Link>
               </Link>
-              <Link to="about" spy={true} smooth={true} duration={500} offset={-50} onClick={handleClose}>
+              <Link to="about" spy={true} smooth={true} duration={500} offset={-50} className='anim-grow' onClick={handleClose}>
                 <Nav.Link href="#about">About Me</Nav.Link>
               </Link>
-              <Link to="skills" spy={true} smooth={true} duration={500} offset={-50} onClick={handleClose}>
+              <Link to="skills" spy={true} smooth={true} duration={500} offset={-50} className='anim-grow' onClick={handleClose}>
                 <Nav.Link href="#skills">Skills</Nav.Link>
               </Link>
-              <Link to="coding" spy={true} smooth={true} duration={500} offset={-50} onClick={handleClose}>
+              <Link to="coding" spy={true} smooth={true} duration={500} offset={-50} className='anim-grow' onClick={handleClose}>
                 <Nav.Link href="#coding">Coding Projects</Nav.Link>
               </Link>
-              <Link to="cms" spy={true} smooth={true} duration={500} offset={-50} onClick={handleClose}>
+              <Link to="cms" spy={true} smooth={true} duration={500} offset={-50} className='anim-grow' onClick={handleClose}>
                 <Nav.Link href="#cms">CMS Websites</Nav.Link>
               </Link>
-              <Link to="contact" spy={true} smooth={true} duration={500} offset={-50} onClick={handleClose}>
+              <Link to="contact" spy={true} smooth={true} duration={500} offset={-50} className='anim-grow' onClick={handleClose}>
                 <Nav.Link href="#contact">Contact</Nav.Link>
               </Link>
               <div className='custom-buffer'></div>

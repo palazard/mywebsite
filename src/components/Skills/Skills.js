@@ -40,7 +40,7 @@ function Skills({title, dataTechnologies, dataHumanSkills, dataLanguages}) {
                         {dataHumanSkills.map((skill,i)=>
                             { return(
                                 <li style={{listStyle: 'none'}} className="pb-4 d-flex align-items-center" key={i}>
-                                    <i style={{fontSize: "25px", color: "white", paddingRight:"10px"}} className={skill.icon}></i>
+                                    <i style={{fontSize: "25px", color: "white", paddingRight:"10px"}} className={`anim-bounce ${skill.icon}`}></i>
                                     {skill.quality}
                                 </li>
                             )}
@@ -57,7 +57,7 @@ function Skills({title, dataTechnologies, dataHumanSkills, dataLanguages}) {
                                 return(
                                 <Row key={i}>
                                     <Col xm={4} sm={4} md={3} className="p-2 pe-2 d-flex justify-content-start align-items-center">
-                                        <img src={skill.flag} alt="" width="90x"></img>
+                                        <img className="anim-bounce" src={skill.flag} alt="" width="90x"></img>
                                     </Col>
                                     <Col xm={8} sm={8} md={9} className="p-2 d-flex flex-column justify-content-center">
                                         <p>{skill.language}</p>

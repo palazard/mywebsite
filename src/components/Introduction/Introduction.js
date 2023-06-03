@@ -13,7 +13,7 @@ function Introduction({data}) {
         <Row>
             <Col xs={12} lg={6} className="d-flex justify-content-center custom-column align-items-center">
                 <div className="">
-                    <img className="custom-image-intro" src={data[0].image} title="" alt=""/>
+                    <img className="anim-rotate custom-image-intro" src={data[0].image} title="" alt=""/>
                 </div>
             </Col>
             <Col xs={12} lg={6} className="d-flex justify-content-center custom-column align-items-center">
@@ -22,7 +22,7 @@ function Introduction({data}) {
                     <h1 className="pb-2">{data[0].name}</h1>
                     <p className='lead'>{data[0].resume}</p>
                     <p className="custom-text-intro">{data[0].description}</p>
-                    <Button className="btn btn-primary custom-button"><a  download="" href={data[0].cv}>Donwload CV</a></Button>
+                    <Button className="anim-bounce btn btn-primary custom-button"><a download="" href={data[0].cv}>Donwload CV</a></Button>
                 </div>
             </Col>
         </Row>

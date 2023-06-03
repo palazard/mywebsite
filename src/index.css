@@ -30,10 +30,6 @@ code {
     monospace;
 }
 
-.btn{
-  padding: 0.6rem 1.2rem;
-}
-
 a {
   color: var(--white-color);
   text-decoration: none;
@@ -43,6 +39,20 @@ a:hover{
   color: var(--primary-color);
   text-decoration: none;
 }
+
+.btn{
+  padding: 0.6rem 1.2rem;
+  
+  &:focus{
+    color: var(--primary-color);;
+  }
+}
+
+.btn>a{
+  &:hover{
+    color: var(--white-color);
+  }
+} 
 
 p {
   font-size: 1rem;

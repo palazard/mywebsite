@@ -53,11 +53,16 @@
 .btn-primary{
   background-color: var(--primary-color);
   border-color: var(--primary-color);
+  color: var(--white-color);
+  --bs-btn-active-bg: var(--segundary-color);
+  --bs-btn-active-border-color: var(--segundary-color);
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: var(--segundary-color);
   border-color: var(--segundary-color);
+  color: var(--white-color);
 }
+
 
 @media (min-width: 1200px){
   .custom-main-container{
@@ -90,4 +95,53 @@
   .custom-main-container h4 {
     font-size: 1.2rem;
   }
+}
+
+
+/* ANIMATIONS CLASSES */
+.anim-bounce {
+  animation-duration: 0.25s;
+  animation-iteration-count: 2;
+  transform-origin: bottom;
+}
+.anim-bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+0%   { transform: translateY(0); }
+50%  { transform: translateY(-10px); }
+100% { transform: translateY(0); }
+}
+
+.anim-grow {
+  transition: all .2s ease-in-out;
+}
+.anim-grow:hover {
+  transform: scale(1.10);
+}
+
+.anim-rotate3D {
+  transition: all .2s ease-in-out;
+}
+.anim-rotate3D:hover {
+  transform: rotateX(50deg);
+  transform: rotateY(10deg);
+  transform: rotateZ(10deg);
+}
+
+.anim-rotate {
+  animation-duration: 0.25s;
+  animation-iteration-count: 2;
+  transform-origin: center;
+}
+.anim-rotate:hover {
+  animation-name: rotate;
+  animation-timing-function: ease;
+}
+@keyframes rotate {
+0%   { transform: rotateZ(0); }
+25%  { transform: rotateZ(-5deg); }
+75%  { transform: rotateZ(5deg); }
+100% { transform: rotateZ(0); }
 }

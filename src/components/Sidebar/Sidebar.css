@@ -54,4 +54,8 @@
 .nav-link:hover{
     color:var(--primary-color);
 }
+.nav-link:focus{
+    color: var(--primary-color);
+    text-decoration: none;
+}
 

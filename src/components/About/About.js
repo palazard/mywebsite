@@ -23,7 +23,7 @@ function About({title, dataAbout, data}) {
                 </div>
             </Col>
             <Col xs={{number:12, order: 2}} lg={7} xxl={8} className="p-0 d-flex justify-content-center custom-column align-items-center">
-                <img className="custom-image-about" src={dataAbout[0].image} title="" alt=""/>
+                <img className="anim-bounce custom-image-about" src={dataAbout[0].image} title="" alt=""/>
             </Col>
         </Row>
         <div className='custom-buffer-medium'></div>
