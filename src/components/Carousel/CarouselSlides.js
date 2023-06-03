@@ -30,8 +30,8 @@ function CarouselSlide ({data}) {
 
 
     return (
-      <Row>
-        <Carousel interval={2000} indicators={indicatorsState} controls={controlsState} className='p-0'>
+      <Row className='ps-5 pe-5'>
+        <Carousel interval={2000} indicators={indicatorsState} controls={controlsState} className='anim-grow p-0'>
           {data.map((item,i)=>
               { return(
                 <Carousel.Item key={i}>

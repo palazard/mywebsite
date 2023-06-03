@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Button } from 'react-bootstrap';
 import './CarouselSlides.css';
 
 function CarouselItem ({item}) {
@@ -15,6 +16,7 @@ function CarouselItem ({item}) {
             {!(!item.date) && <p>{item.date}<br/>{item.school}</p>}
             {!(!item.link) && <h4><a href={item.link} target='blanc'>{item.title}</a></h4>}
             {!(!item.description) && <p>{item.description}</p>}
+            {/* {!(!item.link) && <Button className="btn btn-primary custom-button">See more</Button>} */}
             <div className='custom-buffer-medium'></div>
         </div>
 
