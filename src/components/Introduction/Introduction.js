@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import WrapContainer from '../wrappers/WrapContainer';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import 'animate.css';
 
 import './Introduction.css';
 
@@ -11,12 +12,12 @@ function Introduction({data}) {
   return (
     <WrapContainer>
         <Row>
-            <Col xs={12} lg={6} className="d-flex justify-content-center custom-column align-items-center">
+            <Col xs={12} lg={6} className="animate__animated animate__slideInLeft d-flex justify-content-center custom-column align-items-center">
                 <div className="">
                     <img className="anim-grow custom-image-intro" src={data[0].image} title="" alt=""/>
                 </div>
             </Col>
-            <Col xs={12} lg={6} className="d-flex justify-content-center custom-column align-items-center">
+            <Col xs={12} lg={6} className="animate__animated animate__slideInRight d-flex justify-content-center custom-column align-items-center">
                 <div className="">
                     <h5>Hello, I am</h5>
                     <h1 className="pb-2">{data[0].name}</h1>

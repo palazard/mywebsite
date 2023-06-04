@@ -10,3 +10,7 @@
 .custom-text-intro{
     max-width: 500px;
 }
+
+.animate__animate__fadeIn{
+    --animate-delay: 2s;
+  }

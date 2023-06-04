@@ -121,14 +121,6 @@
   transform: scale(1.10);
 }
 
-.anim-rotate3D {
-  transition: all .2s ease-in-out;
-}
-.anim-rotate3D:hover {
-  transform: rotateX(50deg);
-  transform: rotateY(10deg);
-  transform: rotateZ(10deg);
-}
 
 .anim-rotate {
   animation-duration: 0.25s;
@@ -145,3 +137,4 @@
 75%  { transform: rotateZ(5deg); }
 100% { transform: rotateZ(0); }
 }
+
