@@ -11,7 +11,7 @@
 
     "about" : [
         {
-            "description" : "After obtaining a general engineering degree and working for three years in advanced technologies, I studied digital marketing and web analysis to become a webmaster. However, I couldn't ignore the new possibilities that programming offered, so I gave in to temptation and started several bootcamps, spending my days learning and experimenting with coding.\n \nBeing very curious, creative and perfectionist by nature, I don't stop at what I know, I'm always researching to achieve my project goals. With my background I consider myself a problem solver!!\n\n\n I strongly believe that life is all about balance - mind, body and soul must be healthy and in harmony to achieve our goals. My passions, such as surfing, yoga, meditation, and reading… help me to move forward on my path and be unstoppable!",
+            "description" : "After obtaining a industrial engineering degree and working for three years in advanced technologies, I studied digital marketing and web analysis to become a webmaster. However, I couldn't ignore the new possibilities that programming offered, so I gave in to temptation and started several bootcamps, spending my days learning and experimenting with coding.\n \nBeing very curious, creative and perfectionist by nature, I don't stop at what I know, I'm always researching to achieve my project goals. With my background I consider myself a problem solver!!\n\n\n I strongly believe that life is all about balance - mind, body and soul must be healthy and in harmony to achieve our goals. My passions, such as surfing, yoga, meditation, and reading… help me to move forward on my path and be unstoppable!",
             "image" : "about/about-pauline.png"
         }
     ],
@@ -180,7 +180,7 @@
         {
             "language": "Portuguese",
             "flag": "flags/portuguese.png",
-            "pourcentage": 30
+            "pourcentage": 40
         }
     ],
 
@@ -225,16 +225,22 @@
             "description" : "Website for a Surf Camp in Panama, with interactives forms, created with Wordpress."
         },
         {
-            "title" : "Captura Monster",
-            "image" : "cms/captura.jpg",
-            "link" : "https://captura.monster/",
-            "description" : "Ecommerce for fishermen created with WordPress."
-        },
-        {
             "title" : "Nalu Souls",
             "image" : "cms/nalusouls.jpg",
             "link" : "https://nalusouls.com/",
             "description" : "Multilingual Membership Website created with WordPress."
+        },        
+        {
+            "title" : "Nuances Web",
+            "image" : "cms/nuancesweb.jpg",
+            "link" : "https://nuancesweb.com/",
+            "description" : "The website of my activity as dev/webmaster 'Nuances Web' created with WordPress."
+        },
+        {
+            "title" : "Air Liquide",
+            "image" : "cms/airliquide.jpg",
+            "link" : "https://fr.airliquide.com/",
+            "description" : "I'm part of the team who work on the Air Liquide's website created with Drupal."
         },
         {
             "title" : "Surfactory Academy",
@@ -245,8 +251,14 @@
         {
             "title" : "The Wall Construction Panama",
             "image" : "cms/thewallconstructionpanama.jpg",
-            "link" : "https://thewallconstructionpanama.com/",
-            "description" : "Portfolio Web created with WordPress for a construction Company."
+            "link" : "https://thewallconstructionpanama.nuancesweb.com/",
+            "description" : "Portfolio Web created with WordPress for a construction Company (website off)."
+        },
+        {
+            "title" : "Captura Monster",
+            "image" : "cms/captura.jpg",
+            "link" : "https://vimeo.com/778565154/",
+            "description" : "Ecommerce for fishermen created with WordPress (website off)."
         }
     ],
 
