@@ -2,7 +2,7 @@
     "introduction" : [
         {
             "name": "Pauline Alazard",
-            "resume": "Industrial engineer / Full Stack Developer / Problems Solver",
+            "resume": "Industrial engineer / Java Script Developer",
             "description" : "Who love learning or creating new things and surfing around the world...",
             "image" : "introduction/pauline-alazard.png",
             "cv" : "introduction/CV Pauline ALAZARD.pdf"
@@ -117,16 +117,8 @@
             "skill": "Terminal"
         },
         {
-            "image": "skillLogos/ubuntu.png",
-            "skill": "Ubuntu"
-        },
-        {
             "image": "skillLogos/visual-studio-code.png",
             "skill": "VSCode"
-        },
-        {
-            "image": "skillLogos/dfinity.png",
-            "skill": "Dfinity"
         },
         {
             "image": "skillLogos/wordpress.avif",
